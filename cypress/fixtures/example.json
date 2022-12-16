@@ -1,0 +1,16 @@
+{
+  "firstName": "Gerimedica",
+  "lastName": "BV",
+  "email": "test@test.com",
+  "gender":"Male",
+  "mblno":9988776655,
+  "dob":{
+    "date":23,
+    "month":"December",
+    "year":2022
+  },
+  "subject":"Cypress Assignment",
+  "hobbies":2,
+  "currentAddress":"Rajastan",
+  "image":".\\cypress\\images\\Screenshot (118).png"
+}

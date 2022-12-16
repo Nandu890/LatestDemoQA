@@ -1,0 +1,12 @@
+{
+    "FirstName":"Sindhu",
+    "LastName":"Ks",
+    "Email":"Sindhu@gamil.com",
+    "Age":28,
+    "Salary":458522,
+    "Department":"QA",
+   "Edit":{
+          "FirstName":"Dummy",
+          "LastName":"User"
+         }
+}
