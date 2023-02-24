@@ -1,5 +1,6 @@
 import { WebTable } from "../pageObject/web-table-page-object";
 import {Common} from "../pageObject/common-page-object";   
+
 const common=new Common();
 const webTable=new WebTable(); 
 

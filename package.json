@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.3",
-    "cypress": "^12.1.0"
+    "cypress": "^12.6.0",
+    "cypress-slow-down": "^1.2.1"
   },
   "dependencies": {
     "cypress-file-upload": "^5.0.8",
