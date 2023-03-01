@@ -4,6 +4,12 @@
     "cypress": "^12.6.0",
     "cypress-slow-down": "^1.2.1"
   },
+  "scripts": {
+    "start": "my-server -p 3030",
+    "cy:run": "cypress run",
+    "test": "npx cypress run --record --key d0e4ff61-2126-42fd-a4dc-881dd0e45848",
+    "parallel":"npx cypress run --ci-build-id 4303628210 --parallel --record --key d0e4ff61-2126-42fd-a4dc-881dd0e45848"
+  },
   "dependencies": {
     "cypress-file-upload": "^5.0.8",
     "cypress-wait-until": "^1.7.2"

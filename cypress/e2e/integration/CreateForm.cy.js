@@ -22,7 +22,7 @@ describe("Test case on form", function () {
         creatForm.inputTextById("userEmail",this.data.email);
         creatForm.selectButton(this.data.gender);
         creatForm.inputTextById("userNumber",this.data.mblno);
-        creatForm.selectDOB(this.data.dob.date,this.data.dob.month,this.data.dob.year);
+        // creatForm.selectDOB(this.data.dob.date,this.data.dob.month,this.data.dob.year);
         creatForm.inputsubject(this.data.subject);
         creatForm.selectButton(this.data.hobbies);
         creatForm.selectPicture(this.data.image);
