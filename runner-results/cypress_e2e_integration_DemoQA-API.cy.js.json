@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 6,
+  "passes": 6,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-03-01T14:17:01.901Z",
+  "duration": 2091,
+  "file": "cypress\\e2e\\integration\\DemoQA-API.cy.js"
+}

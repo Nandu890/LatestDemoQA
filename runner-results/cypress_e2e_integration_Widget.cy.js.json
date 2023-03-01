@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 3,
+  "passes": 3,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-03-01T14:16:51.207Z",
+  "duration": 37948,
+  "file": "cypress\\e2e\\integration\\Widget.cy.js"
+}

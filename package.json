@@ -2,16 +2,19 @@
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.3",
     "cypress": "^12.6.0",
-    "cypress-slow-down": "^1.2.1"
+    "cypress-slow-down": "^1.2.1",
+    "cypress-split": "^1.3.0"
   },
   "scripts": {
     "start": "my-server -p 3030",
     "cy:run": "cypress run",
     "test": "npx cypress run --record --key d0e4ff61-2126-42fd-a4dc-881dd0e45848",
-    "parallel":"npx cypress run --ci-build-id 4304166656 --parallel --record --key f57ae1c6-30c7-4bbf-990a-73a61703c089"
+    "parallel": "npx cypress run --ci-build-id 4304166656 --parallel --record --key f57ae1c6-30c7-4bbf-990a-73a61703c089",
+    "cy:parallel": "cypress-parallel -s cy:run -t 6 -d \"cypress\\e2e\\integration\\**.*.js\""
   },
   "dependencies": {
     "cypress-file-upload": "^5.0.8",
+    "cypress-parallel": "^0.12.0",
     "cypress-wait-until": "^1.7.2"
   }
 }
