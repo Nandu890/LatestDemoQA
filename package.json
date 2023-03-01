@@ -8,7 +8,7 @@
     "start": "my-server -p 3030",
     "cy:run": "cypress run",
     "test": "npx cypress run --record --key d0e4ff61-2126-42fd-a4dc-881dd0e45848",
-    "parallel":"npx cypress run --ci-build-id 4303628210 --parallel --record --key d0e4ff61-2126-42fd-a4dc-881dd0e45848"
+    "parallel":"npx cypress run --ci-build-id 4303628210 --parallel --record --key f57ae1c6-30c7-4bbf-990a-73a61703c089"
   },
   "dependencies": {
     "cypress-file-upload": "^5.0.8",
