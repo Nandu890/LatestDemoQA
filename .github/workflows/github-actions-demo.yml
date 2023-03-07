@@ -12,14 +12,16 @@ jobs:
         containers: [1, 2, 3, 4, 5, 6] # Uses 2 parallel instances
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v30
+
       - name: Cypress run
         # Uses the official Cypress GitHub action https://github.com/cypress-io/github-action
         uses: cypress-io/github-action@v3
         with:
           # Starts web server for E2E tests - replace with your own server invocation
           # https://docs.cypress.io/guides/continuous-integration/introduction#Boot-your-server
-          start: npm run parallel
+          start: npm install
+          -run : npm run parallel
           browser: chrome
           # Waits for above
           # Records to Cypress Cloud 
