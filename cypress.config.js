@@ -8,7 +8,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here,
       cypressSplit(on, config)
-      return config;
+      return config
     },
     baseUrl:"https://demoqa.com",
     specPattern:"cypress/e2e/integration/*.{js,jsx,ts,tsx}",
